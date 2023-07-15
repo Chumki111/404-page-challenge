@@ -50,9 +50,15 @@
              }
 
              .container-photo{
-            width: 540px;
-            height: 450px;
+            width: 350px;
+            height: 300px;
+            margin: auto;
+            margin-top: 40px;
             
+        }
+        img{
+            width: 100%;
+           
         }
         .title{
            padding-left: 100px;
@@ -67,7 +73,19 @@
         }
     }
     @media screen and (min-width:576px) and (max-width:992px) {
+        /* .container{
+            display: flex;
+            flex-direction: column;
+        }
+         */
         
+        .container-photo{
+            width: 540px;
+            height: 450px;
+        }
+        img{
+            width: 100%;
+        }
     }
     </style>
 </head>
@@ -78,7 +96,7 @@
         </div>
         <div class="container-description">
             <h1 class="title">I have bad news <br> for you</h1>
-            <p class="desceiprion"> The page you are looking <br> for might be removed or is <br> temporarily unavailable</p>
+            <p class="desceiprion"> The page you are looking <br> for might be removed or is <br> temporarily unavailable..</p>
             <button class="btn">BACK TO HOMEPAGE</button>
            
         </div>
