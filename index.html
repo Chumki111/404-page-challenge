@@ -26,7 +26,7 @@
             /* width: 580px;
             height: 190px; */
             font-size: 4.5em;
-            padding-bottom: 10px;
+            /* padding-bottom: 10px; */
         }
         .desceiprion{
             width: 380px;
@@ -43,6 +43,21 @@
             width: 200px;
             border-radius: 10px;
         }
+        @media screen and (max-width:576px) {
+             .container{
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+             }
+
+             .container-photo{
+            width: 540px;
+            height: 450px;
+            
+        }
+        .title{
+            font-size: 2em;
+        }
+    }
     </style>
 </head>
 <body>
