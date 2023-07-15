@@ -9,6 +9,11 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            gap: 50px;
+            /* margin-top: 500px; */
+            /* border: 2px solid black; */
+            /* width: 1000px; */
+            margin: auto;
         }
         .container-photo{
             width: 540px;
@@ -16,6 +21,27 @@
         }
         img{
             width: 100%;
+        }
+        .title{
+            /* width: 580px;
+            height: 190px; */
+            font-size: 4.5em;
+            padding-bottom: 10px;
+        }
+        .desceiprion{
+            width: 380px;
+            height: 80px;
+            line-height:20px ;
+          word-spacing: 10px;
+
+            
+        }
+        .btn{
+            background-color: black;
+            color: white;
+            padding: 20px 10px;
+            width: 200px;
+            border-radius: 10px;
         }
     </style>
 </head>
@@ -25,11 +51,13 @@
       <img src="Scarecrow.png" alt="">
         </div>
         <div class="container-description">
-            <h1>I have bad news for you</h1>
-            <p>The page you are looking for might be removed or temporarily unavailable</p>
-            <button>BACK TO HOMEPAGE</button>
-
+            <h1 class="title">I have bad news <br> for you</h1>
+            <p class="desceiprion"> The page you are looking <br> for might be removed or is <br> temporarily unavailable</p>
+            <button class="btn">BACK TO HOMEPAGE</button>
+           
         </div>
+       
     </div>
+    <!-- <span>Create bu username-dev challenge</span> -->
 </body>
 </html>
